@@ -1,24 +1,37 @@
 <div id='container'>
 
+
+<ul>
+<li><a href = "/">Home </a></li>
+
+<li><a href = "#/login">Login</a></li>
+<li><a href = "#/links">Links</a></li>
+<li><a href = "#signup">Sign-up</a></li>
+
+</ul>
 	<div ng-controller="ShortenController">
-		
-		<div> 
+
+		<div>
 			<input type = 'text' ng-model = 'link'/>
-			<button ng-click = "addLink(link)">
+			<button ng-click = "addLink(link)"; "getData()" >
 			<!-- addLink -->
-  			link: {{link}}
 			</button>
+  			link: {{link}}
 		</div>
 	</div>
 	<div ng-controller="LinksController"
 		<span>
 			<br/>
-				<ul>
-  					links: {{data.links}}
-
+				<ul $setDirty() ng-repeat="link in data.links | orderBy: '-visits'">
+  					<span><li>{{link.url}}</li><span>
+  					 <a href='{{link.base_url+"/api/links/"+link.code}}' ng-click="">{{link.base_url}}/{{link.code}}</a>
+						<div style="display:inline;">
+            <span style="float:right"> {{link.visits}}</span>
+        	</div>
+    </body>
 				<!-- <p> {{links}} </p> -->
 				</ul>
 		</span>
-	
+
 	</div>
   <!-- Your html here -->

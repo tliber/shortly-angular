@@ -6,18 +6,20 @@ angular.module('shortly.services', [])
   linksFactory.data = {}
   linksFactory.data.links = [];
   linksFactory.getLinks = function(){
+    console.log("REFRESHING LINKS")
     $http.get('/api/links').
       success(function(res) {
-        console.log(res)
-        linksFactory.data.links.concat(res)
+        // urls = [];
+
+        linksFactory.data.links = res
     })
   }
-  
+
     // this callback will be called asynchronously
     // when the response is available
     linksFactory.data.links = []
 
-    
+
     return linksFactory
 
 
@@ -45,12 +47,14 @@ angular.module('shortly.services', [])
   };
 
   var signup = function (user) {
+    console.log("USER:",user)
     return $http({
       method: 'POST',
       url: '/api/users/signup',
       data: user
     })
     .then(function (resp) {
+      console.log("SRVICES 56",resp.data.token)
       return resp.data.token;
     });
   };

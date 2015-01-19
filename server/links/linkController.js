@@ -33,10 +33,10 @@ module.exports = {
   },
 
   newLink: function (req, res, next) {
-    var url = req.body.url;
-    // console.log("RES:", res.body)
+    var url = req.body.data;
+    console.log("REQ:", req.body.data)
     // console.log("NEXT:", next)
-    console.log("REQ BODY", req.body.url)
+    console.log("URL TO BE PASSED IN", url)
     // console.log("REQ BODY")
     // console.log(res);
     if (!util.isValidUrl(url)) {
@@ -49,6 +49,7 @@ module.exports = {
     findLink({url: url})
       .then(function (match) {
         if (match) {
+          console.log("MATCH BEING SENT")
           res.send(match);
         } else {
           return  util.getUrlTitle(url);
@@ -76,6 +77,7 @@ module.exports = {
   },
 
   navToLink: function (req, res, next) {
+    console.log("IN navToLink")
     var link = req.navLink;
     link.visits++;
     link.save(function (err, savedLink) {

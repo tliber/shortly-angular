@@ -7,8 +7,10 @@ angular.module('shortly.auth', [])
   $scope.user = {};
 
   $scope.signin = function () {
+    console.log('In signin')
     Auth.signin($scope.user)
       .then(function (token) {
+        console.log(token)
         $window.localStorage.setItem('com.shortly', token);
         $location.path('/links');
       })
@@ -18,12 +20,17 @@ angular.module('shortly.auth', [])
   };
 
   $scope.signup = function () {
+    console.log('IN SIGNUP')
+    console.log('USER', $scope.user)
+    // console.log($location)
     Auth.signup($scope.user)
       .then(function (token) {
+        console.log("Success signing up")
         $window.localStorage.setItem('com.shortly', token);
         $location.path('/links');
       })
       .catch(function (error) {
+        console.log('ERROR SIGNING UP')
         console.error(error);
       });
   };

@@ -2,8 +2,8 @@ angular.module('shortly.shorten', [])
 
 .controller('ShortenController', function ($scope,$http, $location, Links) {
 	angular.extend($scope, Links)
-	$scope.link = '';  
-	// console.a	
+	$scope.link = '';
+	// console.a
 	$scope.addLink = function(link){
     console.log("from shawty")
     // console.log($post)
@@ -12,7 +12,9 @@ angular.module('shortly.shorten', [])
     // console.log(link)
     $http.post('/api/links',{data : link})
     .success(function(data) {
-      console.log('success')
+      console.log('success', data.url)
+      $scope.link = data.url
+      $scope.getLinks();
       // console.log(data)
      // }).failure(function(data){
      //  	console.log('fail')
