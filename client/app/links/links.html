@@ -1,3 +1,24 @@
 <div id='container'>
+
+	<div ng-controller="ShortenController">
+		
+		<div> 
+			<input type = 'text' ng-model = 'link'/>
+			<button ng-click = "addLink(link)">
+			<!-- addLink -->
+  			link: {{link}}
+			</button>
+		</div>
+	</div>
+	<div ng-controller="LinksController"
+		<span>
+			<br/>
+				<ul>
+  					links: {{data.links}}
+
+				<!-- <p> {{links}} </p> -->
+				</ul>
+		</span>
+	
+	</div>
   <!-- Your html here -->
-</div>

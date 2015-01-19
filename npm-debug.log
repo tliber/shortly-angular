@@ -1,0 +1,386 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'gulp',
+1 verbose cli   'kasrma',
+1 verbose cli   'karma-cli',
+1 verbose cli   'nodemon' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\nodejs\\node.exe
+5 verbose cache add [ 'gulp', null ]
+6 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gulp',
+7 verbose parsed url   path: 'gulp',
+7 verbose parsed url   href: 'gulp' }
+8 verbose cache add [ 'kasrma', null ]
+9 verbose cache add name=undefined spec="kasrma" args=["kasrma",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'kasrma',
+10 verbose parsed url   path: 'kasrma',
+10 verbose parsed url   href: 'kasrma' }
+11 verbose cache add [ 'karma-cli', null ]
+12 verbose cache add name=undefined spec="karma-cli" args=["karma-cli",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'karma-cli',
+13 verbose parsed url   path: 'karma-cli',
+13 verbose parsed url   href: 'karma-cli' }
+14 verbose cache add [ 'nodemon', null ]
+15 verbose cache add name=undefined spec="nodemon" args=["nodemon",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'nodemon',
+16 verbose parsed url   path: 'nodemon',
+16 verbose parsed url   href: 'nodemon' }
+17 silly lockFile 9750c68d-gulp gulp
+18 verbose lock gulp C:\Users\Tole\AppData\Roaming\npm-cache\9750c68d-gulp.lock
+19 silly lockFile 67a62245-kasrma kasrma
+20 verbose lock kasrma C:\Users\Tole\AppData\Roaming\npm-cache\67a62245-kasrma.lock
+21 silly lockFile aa100f68-karma-cli karma-cli
+22 verbose lock karma-cli C:\Users\Tole\AppData\Roaming\npm-cache\aa100f68-karma-cli.lock
+23 silly lockFile 1625b929-nodemon nodemon
+24 verbose lock nodemon C:\Users\Tole\AppData\Roaming\npm-cache\1625b929-nodemon.lock
+25 silly lockFile 9750c68d-gulp gulp
+26 silly lockFile 9750c68d-gulp gulp
+27 silly lockFile 67a62245-kasrma kasrma
+28 silly lockFile 67a62245-kasrma kasrma
+29 silly lockFile 1625b929-nodemon nodemon
+30 silly lockFile 1625b929-nodemon nodemon
+31 silly lockFile aa100f68-karma-cli karma-cli
+32 silly lockFile aa100f68-karma-cli karma-cli
+33 verbose addNamed [ 'gulp', '' ]
+34 verbose addNamed [ null, '*' ]
+35 silly lockFile 72f4391e-gulp gulp@
+36 verbose lock gulp@ C:\Users\Tole\AppData\Roaming\npm-cache\72f4391e-gulp.lock
+37 verbose addNamed [ 'kasrma', '' ]
+38 verbose addNamed [ null, '*' ]
+39 silly lockFile 02463e99-kasrma kasrma@
+40 verbose lock kasrma@ C:\Users\Tole\AppData\Roaming\npm-cache\02463e99-kasrma.lock
+41 verbose addNamed [ 'nodemon', '' ]
+42 verbose addNamed [ null, '*' ]
+43 silly lockFile 4f5e51c6-nodemon nodemon@
+44 verbose lock nodemon@ C:\Users\Tole\AppData\Roaming\npm-cache\4f5e51c6-nodemon.lock
+45 verbose addNamed [ 'karma-cli', '' ]
+46 verbose addNamed [ null, '*' ]
+47 silly lockFile 8f6f2c72-karma-cli karma-cli@
+48 verbose lock karma-cli@ C:\Users\Tole\AppData\Roaming\npm-cache\8f6f2c72-karma-cli.lock
+49 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+50 silly addNameRange { name: 'kasrma', range: '*', hasData: false }
+51 silly addNameRange { name: 'nodemon', range: '*', hasData: false }
+52 verbose request where is /kasrma
+53 verbose request registry https://registry.npmjs.org/
+54 verbose request id fc18a26d67533ad4
+55 verbose url raw /kasrma
+56 verbose url resolving [ 'https://registry.npmjs.org/', './kasrma' ]
+57 verbose url resolved https://registry.npmjs.org/kasrma
+58 verbose request where is https://registry.npmjs.org/kasrma
+59 info trying registry request attempt 1 at 12:09:56
+60 http GET https://registry.npmjs.org/kasrma
+61 silly addNameRange { name: 'karma-cli', range: '*', hasData: false }
+62 verbose registry.get https://registry.npmjs.org/gulp not expired, no request
+63 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+64 silly addNameRange versions [ 'gulp',
+64 silly addNameRange   [ '0.0.1',
+64 silly addNameRange     '0.0.2',
+64 silly addNameRange     '0.0.3',
+64 silly addNameRange     '0.0.4',
+64 silly addNameRange     '0.0.5',
+64 silly addNameRange     '0.0.7',
+64 silly addNameRange     '0.0.8',
+64 silly addNameRange     '0.0.9',
+64 silly addNameRange     '0.1.0',
+64 silly addNameRange     '0.2.0',
+64 silly addNameRange     '1.0.0',
+64 silly addNameRange     '1.1.0',
+64 silly addNameRange     '1.2.0',
+64 silly addNameRange     '1.2.1',
+64 silly addNameRange     '2.0.0',
+64 silly addNameRange     '2.0.1',
+64 silly addNameRange     '2.1.0',
+64 silly addNameRange     '2.2.0',
+64 silly addNameRange     '2.3.0',
+64 silly addNameRange     '2.4.0',
+64 silly addNameRange     '2.4.1',
+64 silly addNameRange     '2.6.0',
+64 silly addNameRange     '2.6.1',
+64 silly addNameRange     '2.7.0',
+64 silly addNameRange     '3.0.0',
+64 silly addNameRange     '3.1.1',
+64 silly addNameRange     '3.1.2',
+64 silly addNameRange     '3.1.3',
+64 silly addNameRange     '3.1.4',
+64 silly addNameRange     '3.2.0',
+64 silly addNameRange     '3.2.1',
+64 silly addNameRange     '3.2.2',
+64 silly addNameRange     '3.2.3',
+64 silly addNameRange     '3.2.4',
+64 silly addNameRange     '3.2.5',
+64 silly addNameRange     '3.3.0',
+64 silly addNameRange     '3.3.1',
+64 silly addNameRange     '3.3.2',
+64 silly addNameRange     '3.3.4',
+64 silly addNameRange     '3.4.0',
+64 silly addNameRange     '3.5.0',
+64 silly addNameRange     '3.5.1',
+64 silly addNameRange     '3.5.2',
+64 silly addNameRange     '3.5.5',
+64 silly addNameRange     '3.5.6',
+64 silly addNameRange     '3.6.0',
+64 silly addNameRange     '3.6.1',
+64 silly addNameRange     '3.6.2',
+64 silly addNameRange     '3.7.0',
+64 silly addNameRange     '3.8.0',
+64 silly addNameRange     '3.8.1',
+64 silly addNameRange     '3.8.2',
+64 silly addNameRange     '3.8.3',
+64 silly addNameRange     '3.8.4',
+64 silly addNameRange     '3.8.5',
+64 silly addNameRange     '3.8.6',
+64 silly addNameRange     '3.8.7',
+64 silly addNameRange     '3.8.8',
+64 silly addNameRange     '3.8.9',
+64 silly addNameRange     '3.8.10' ] ]
+65 verbose addNamed [ 'gulp', '3.8.10' ]
+66 verbose addNamed [ '3.8.10', '3.8.10' ]
+67 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+68 verbose lock gulp@3.8.10 C:\Users\Tole\AppData\Roaming\npm-cache\f843d0d7-gulp-3-8-10.lock
+69 verbose request where is /nodemon
+70 verbose request registry https://registry.npmjs.org/
+71 verbose url raw /nodemon
+72 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon' ]
+73 verbose url resolved https://registry.npmjs.org/nodemon
+74 verbose request where is https://registry.npmjs.org/nodemon
+75 info trying registry request attempt 1 at 12:09:56
+76 verbose etag "4XKRIRS3TZU5BHAFT1D5VEHJ1"
+77 http GET https://registry.npmjs.org/nodemon
+78 verbose registry.get https://registry.npmjs.org/karma-cli not expired, no request
+79 silly addNameRange number 2 { name: 'karma-cli', range: '*', hasData: true }
+80 silly addNameRange versions [ 'karma-cli', [ '0.0.1', '0.0.2', '0.0.3', '0.0.4' ] ]
+81 verbose addNamed [ 'karma-cli', '0.0.4' ]
+82 verbose addNamed [ '0.0.4', '0.0.4' ]
+83 silly lockFile 0ef08b95-karma-cli-0-0-4 karma-cli@0.0.4
+84 verbose lock karma-cli@0.0.4 C:\Users\Tole\AppData\Roaming\npm-cache\0ef08b95-karma-cli-0-0-4.lock
+85 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+86 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+87 silly lockFile 72f4391e-gulp gulp@
+88 silly lockFile 72f4391e-gulp gulp@
+89 silly lockFile 0ef08b95-karma-cli-0-0-4 karma-cli@0.0.4
+90 silly lockFile 0ef08b95-karma-cli-0-0-4 karma-cli@0.0.4
+91 silly lockFile 8f6f2c72-karma-cli karma-cli@
+92 silly lockFile 8f6f2c72-karma-cli karma-cli@
+93 http 304 https://registry.npmjs.org/nodemon
+94 silly registry.get cb [ 304,
+94 silly registry.get   { date: 'Fri, 16 Jan 2015 20:09:55 GMT',
+94 silly registry.get     server: 'Apache',
+94 silly registry.get     via: '1.1 varnish',
+94 silly registry.get     'last-modified': 'Fri, 16 Jan 2015 20:09:55 GMT',
+94 silly registry.get     'cache-control': 'max-age=60',
+94 silly registry.get     etag: '"4XKRIRS3TZU5BHAFT1D5VEHJ1"',
+94 silly registry.get     age: '0',
+94 silly registry.get     'x-served-by': 'cache-lax1420-LAX',
+94 silly registry.get     'x-cache': 'HIT',
+94 silly registry.get     'x-cache-hits': '1',
+94 silly registry.get     'x-timer': 'S1421438995.350973,VS0,VE43',
+94 silly registry.get     vary: 'Accept',
+94 silly registry.get     'content-length': '0',
+94 silly registry.get     'keep-alive': 'timeout=10, max=50',
+94 silly registry.get     connection: 'Keep-Alive' } ]
+95 verbose etag https://registry.npmjs.org/nodemon from cache
+96 http 404 https://registry.npmjs.org/kasrma
+97 verbose headers { date: 'Fri, 16 Jan 2015 20:09:55 GMT',
+97 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+97 verbose headers   'content-type': 'application/json',
+97 verbose headers   'cache-control': 'max-age=0',
+97 verbose headers   'content-length': '52',
+97 verbose headers   'accept-ranges': 'bytes',
+97 verbose headers   via: '1.1 varnish',
+97 verbose headers   age: '0',
+97 verbose headers   'x-served-by': 'cache-lax1429-LAX',
+97 verbose headers   'x-cache': 'MISS',
+97 verbose headers   'x-cache-hits': '0',
+97 verbose headers   'x-timer': 'S1421438995.352419,VS0,VE43',
+97 verbose headers   'keep-alive': 'timeout=10, max=50',
+97 verbose headers   connection: 'Keep-Alive' }
+98 silly registry.get cb [ 404,
+98 silly registry.get   { date: 'Fri, 16 Jan 2015 20:09:55 GMT',
+98 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+98 silly registry.get     'content-type': 'application/json',
+98 silly registry.get     'cache-control': 'max-age=0',
+98 silly registry.get     'content-length': '52',
+98 silly registry.get     'accept-ranges': 'bytes',
+98 silly registry.get     via: '1.1 varnish',
+98 silly registry.get     age: '0',
+98 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+98 silly registry.get     'x-cache': 'MISS',
+98 silly registry.get     'x-cache-hits': '0',
+98 silly registry.get     'x-timer': 'S1421438995.352419,VS0,VE43',
+98 silly registry.get     'keep-alive': 'timeout=10, max=50',
+98 silly registry.get     connection: 'Keep-Alive' } ]
+99 silly lockFile 02463e99-kasrma kasrma@
+100 silly lockFile 02463e99-kasrma kasrma@
+101 silly addNameRange number 2 { name: 'nodemon', range: '*', hasData: true }
+102 silly addNameRange versions [ 'nodemon',
+102 silly addNameRange   [ '0.1.4',
+102 silly addNameRange     '0.1.5',
+102 silly addNameRange     '0.1.6',
+102 silly addNameRange     '0.1.7',
+102 silly addNameRange     '0.1.8',
+102 silly addNameRange     '0.2.0',
+102 silly addNameRange     '0.2.1',
+102 silly addNameRange     '0.2.2',
+102 silly addNameRange     '0.3.0',
+102 silly addNameRange     '0.3.1',
+102 silly addNameRange     '0.3.2',
+102 silly addNameRange     '0.4.0',
+102 silly addNameRange     '0.4.1',
+102 silly addNameRange     '0.5.0',
+102 silly addNameRange     '0.5.1',
+102 silly addNameRange     '0.5.2',
+102 silly addNameRange     '0.5.3',
+102 silly addNameRange     '0.5.4',
+102 silly addNameRange     '0.5.5',
+102 silly addNameRange     '0.5.6',
+102 silly addNameRange     '0.5.7',
+102 silly addNameRange     '0.6.0',
+102 silly addNameRange     '0.6.1',
+102 silly addNameRange     '0.6.2',
+102 silly addNameRange     '0.6.3',
+102 silly addNameRange     '0.6.4',
+102 silly addNameRange     '0.6.5',
+102 silly addNameRange     '0.6.6',
+102 silly addNameRange     '0.6.7',
+102 silly addNameRange     '0.6.8',
+102 silly addNameRange     '0.6.9',
+102 silly addNameRange     '0.6.10',
+102 silly addNameRange     '0.6.11',
+102 silly addNameRange     '0.6.12',
+102 silly addNameRange     '0.6.13',
+102 silly addNameRange     '0.6.14',
+102 silly addNameRange     '0.6.15',
+102 silly addNameRange     '0.6.16',
+102 silly addNameRange     '0.6.17',
+102 silly addNameRange     '0.6.18',
+102 silly addNameRange     '0.6.19',
+102 silly addNameRange     '0.6.20',
+102 silly addNameRange     '0.6.21',
+102 silly addNameRange     '0.6.22',
+102 silly addNameRange     '0.6.23',
+102 silly addNameRange     '0.7.0',
+102 silly addNameRange     '0.7.1',
+102 silly addNameRange     '0.7.2',
+102 silly addNameRange     '0.7.3',
+102 silly addNameRange     '0.7.4',
+102 silly addNameRange     '0.7.5',
+102 silly addNameRange     '0.7.6',
+102 silly addNameRange     '0.7.7',
+102 silly addNameRange     '0.7.8',
+102 silly addNameRange     '0.7.10',
+102 silly addNameRange     '0.9.0',
+102 silly addNameRange     '0.9.1',
+102 silly addNameRange     '0.9.2',
+102 silly addNameRange     '0.9.3',
+102 silly addNameRange     '0.9.5',
+102 silly addNameRange     '0.9.6',
+102 silly addNameRange     '0.9.7',
+102 silly addNameRange     '0.9.10',
+102 silly addNameRange     '0.9.11',
+102 silly addNameRange     '0.9.12',
+102 silly addNameRange     '0.9.14',
+102 silly addNameRange     '0.9.16',
+102 silly addNameRange     '0.9.17',
+102 silly addNameRange     '1.0.0',
+102 silly addNameRange     '1.0.1',
+102 silly addNameRange     '1.0.2',
+102 silly addNameRange     '1.0.2-rc',
+102 silly addNameRange     '0.6.10-a',
+102 silly addNameRange     '1.0.2-rc3',
+102 silly addNameRange     '1.0.2-rc4',
+102 silly addNameRange     '1.0.3',
+102 silly addNameRange     '1.0.4',
+102 silly addNameRange     '1.0.5',
+102 silly addNameRange     '1.0.6',
+102 silly addNameRange     '1.0.7',
+102 silly addNameRange     '1.0.8',
+102 silly addNameRange     '1.0.9',
+102 silly addNameRange     '1.0.10',
+102 silly addNameRange     '1.0.11',
+102 silly addNameRange     '1.0.12',
+102 silly addNameRange     '1.0.13',
+102 silly addNameRange     '1.0.14',
+102 silly addNameRange     '1.0.15',
+102 silly addNameRange     '1.0.16',
+102 silly addNameRange     '1.0.17-rc1',
+102 silly addNameRange     '1.0.17-rc2',
+102 silly addNameRange     '1.0.17',
+102 silly addNameRange     '1.0.18',
+102 silly addNameRange     '1.0.19',
+102 silly addNameRange     '1.0.20',
+102 silly addNameRange     '1.1.0-alpha',
+102 silly addNameRange     '1.1.0',
+102 silly addNameRange     '1.1.1',
+102 silly addNameRange     '1.2.0',
+102 silly addNameRange     '1.2.1',
+102 silly addNameRange     '1.3.0-0',
+102 silly addNameRange     '1.3.0-1',
+102 silly addNameRange     '1.3.0-2',
+102 silly addNameRange     '1.3.0-3',
+102 silly addNameRange     '1.3.0-4',
+102 silly addNameRange     '1.3.0-5',
+102 silly addNameRange     '1.3.0-6',
+102 silly addNameRange     '1.3.0-7' ] ]
+103 verbose addNamed [ 'nodemon', '1.2.1' ]
+104 verbose addNamed [ '1.2.1', '1.2.1' ]
+105 silly lockFile 891e98f0-nodemon-1-2-1 nodemon@1.2.1
+106 verbose lock nodemon@1.2.1 C:\Users\Tole\AppData\Roaming\npm-cache\891e98f0-nodemon-1-2-1.lock
+107 silly lockFile 891e98f0-nodemon-1-2-1 nodemon@1.2.1
+108 silly lockFile 891e98f0-nodemon-1-2-1 nodemon@1.2.1
+109 silly lockFile 4f5e51c6-nodemon nodemon@
+110 silly lockFile 4f5e51c6-nodemon nodemon@
+111 error 404 404 Not Found: kasrma
+111 error 404
+111 error 404 'kasrma' is not in the npm registry.
+111 error 404 You should bug the author to publish it
+111 error 404
+111 error 404 Note that you can also install from a
+111 error 404 tarball, folder, or http url, or git url.
+112 error System Windows_NT 6.2.9200
+113 error command "C:\\nodejs\\\\node.exe" "C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "gulp" "kasrma" "karma-cli" "nodemon"
+114 error cwd C:\Users\Tole\jSstuffings\2014-12-shortly-angular
+115 error node -v v0.10.32
+116 error npm -v 1.4.28
+117 error code E404
+118 verbose exit [ 1, true ]

@@ -2,6 +2,28 @@ angular.module('shortly.services', [])
 
 .factory('Links', function ($http) {
   // Your code here
+  var linksFactory = {};
+  linksFactory.data = {}
+  linksFactory.data.links = [];
+  linksFactory.getLinks = function(){
+    $http.get('/api/links').
+      success(function(res) {
+        console.log(res)
+        linksFactory.data.links.concat(res)
+    })
+  }
+  
+    // this callback will be called asynchronously
+    // when the response is available
+    linksFactory.data.links = []
+
+    
+    return linksFactory
+
+
+
+
+
 })
 .factory('Auth', function ($http, $location, $window) {
   // Don't touch this Auth service!!!
